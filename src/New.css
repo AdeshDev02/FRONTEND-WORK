@@ -1,0 +1,44 @@
+.Box{
+    min-height: 100px;
+    background-color: aqua;
+
+}
+.box2{
+    height: 100px;
+    background-color: gold;
+}
+.box3{
+    height: 0;
+    background-color: aqua;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.wrap{
+    min-height: 100px;
+    background-color: chocolate;
+    margin-top: 20px;
+}
+.child2{
+    height: 100px;
+    background-color: magenta;
+}
+.child3{
+    height: 0;
+    background-color: violet;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.Gayboy{
+    min-height: 100px;
+    background-color:hotpink;
+    margin-top: 20px;
+}
+.Gaygirl{
+    height: 100px;
+    background-color:lime;
+}
+.Gaychild{
+    background-color:yellowgreen;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}

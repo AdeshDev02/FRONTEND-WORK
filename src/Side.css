@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.side{
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, pink, purple, magenta);
+}
+#logo{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: gold;
+}
+.oll{
+    list-style: none;
+    display: flex;
+    gap: "50px"
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 1.5rem;
+}
+.oli{
+    line-height: 35px;
+    text-align: center;
+    color: black;
+}
+.oli > li{
+    border-bottom: 2px solid purple;
+} 
+.oli > li:hover{
+    background-color: coral;
+}
+#bb{
+    height: 50px;
+    width: 90px;
+    background-color: violet;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+@media screen and (max-width:600px) {
+    #bb{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .navv{
+        display: block;
+    }
+}
