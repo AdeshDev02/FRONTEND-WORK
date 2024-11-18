@@ -58,7 +58,7 @@ function New() {
         
     }
   return (
-    <>
+    <>\\\\\\\\\\\\\\\\\\\
         <div className='Box'>
         <div className="box2" onClick={ab} style={{color:'white', fontSize:"2.5rem", fontFamily:"sans-serif", fontWeight:"bold", paddingInline:"30px", display:"flex", justifyContent:"end", alignItems:"center"}}>{Icon}</div>
         <div className="box3" style={{height:increase}}>
